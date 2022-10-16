@@ -47,7 +47,7 @@
       "params": [],
       "body": {
         "type": "json",
-        "raw": "{\n  \"students\": [\n    { \"name\": \"Frank rocha\" },\n    { \"name\": \"Bruna Hamori\" },\n    { \"name\": \"Leandro Simoes\" }\n  ]\n}",
+        "raw": "{\n  \"students\": [\n    { \"name\": \"Frank Rocha\" },\n    { \"name\": \"Bruna Hamori\" },\n    { \"name\": \"Leandro Simoes\" }\n  ]\n}",
         "form": []
       },
       "tests": []
