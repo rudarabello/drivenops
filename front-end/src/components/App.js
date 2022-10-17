@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
@@ -10,7 +11,7 @@ function App() {
       const response = await axios.get(`${API_URL}/students/random`);
       const student = response.data;
       if (!student) {
-        alert('Xablau! Não há estudantes cadastrados para o sorteio!');
+        alert('Não há estudantes cadastrados para o sorteio!');
       } else {
         setStudent(student);
       }
